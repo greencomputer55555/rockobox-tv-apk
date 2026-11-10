@@ -1,0 +1,32 @@
+========================================================================
+   APP NATIVA ANDROID TV: ROCKOBOX PLUS TV (BY GREEN COMPUTER)
+========================================================================
+
+Este paquete contiene el proyecto completo de tu App oficial para Android TV,
+Google TV, TV Box y Fire TV Stick (`com.greencomputer.rockoboxtv`).
+
+¿QUÉ HACE ESTA APP EN TU ANDROID TV?
+1. Auto-Conexión Wi-Fi: Al abrirla en tu tele, busca sola la IP de tu Rockola
+   en el puerto 3000 y muestra la pantalla de TV con la barra corrediza inferior,
+   sin bordes de navegador.
+2. Audio Desbloqueado de Fábrica: Reproduce videos y música automáticamente
+   sin pedir que presiones "OK" en el control de la tele.
+3. Receptor en Red (Puerto 8061 + ADB): Permite que desde la ventana
+   "📺 Smart TV" de tu Rockola detectes el Android TV y abras la App a distancia.
+
+------------------------------------------------------------------------
+¿CÓMO OBTENER EL ARCHIVO "RockoboxTV.apk" SIN GASTAR RECURSOS EN TU PC?
+------------------------------------------------------------------------
+OPCIÓN A (En la nube gratis con GitHub - Recomendado para no instalar nada):
+1. Sube el contenido de esta carpeta a un repositorio gratuito en GitHub.
+2. Ve a la pestaña "Actions" en GitHub y descarga el archivo "RockoboxTV.apk"
+   que se genera automáticamente en 1 minuto.
+
+OPCIÓN B (Si tienes Android Studio o Gradle en otra PC):
+1. Abre esta carpeta en Android Studio o ejecuta `gradle assembleRelease`.
+2. Toma el archivo `app/build/outputs/apk/release/app-release.apk`, renómbralo
+   a `RockoboxTV.apk` y colócalo dentro de la carpeta de tu Rockola (`D:\mi-rockola`).
+
+¡Al colocar `RockoboxTV.apk` en la carpeta de tu Rockola, podrás descargarlo
+en cualquier televisor entrando a `http://IP_DE_TU_PC:3000/apk` o instalarlo
+con 1 clic desde el botón "🚀 Conectar / Abrir en Android TV" de Rockobox!
